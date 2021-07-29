@@ -13,4 +13,5 @@ if first_choice == "left":
         print("Game Over :(")
 else:
     print("Game Over :(")
-#25/07/21
+#27/07/21
+#done

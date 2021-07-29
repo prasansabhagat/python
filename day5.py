@@ -41,4 +41,5 @@ for i in range(1, symbols+1):
     password += random.choice(symbol)
 print("Your password is: " + password)
 
-#26/07/21
+#29/07/21
+#done

@@ -7,7 +7,7 @@
 city = input("which city")
 pet = input("name of pet")
 print("brand name:\n "+city +" "+ pet)
-#DAY-1 Task: brand banee generator (✌done)
+#DAY-1 Task: brand name generator (✌done)
 
 
 #startDate = 25/07/2021

@@ -6,4 +6,7 @@ bill = (total + total*(tip/100))/split_to
 bill_final = round(bill,2)
 print(f"Each person should pay: Rs {bill_final} " )
 #print("Each person should pay: Rs" + bill_final)
-#25/07/21
+
+
+#26/07/21
+#done
