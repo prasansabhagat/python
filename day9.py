@@ -8,7 +8,7 @@ while not bidding_finished:
     question = input("Is there other person who wants to bid? yes or no ")
     if question == "no":
         bidding_finished = True
-    elif question = "yes":
+    elif question == "yes":
         
 print("Welcome to the secret auction program `~'")
 

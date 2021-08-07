@@ -5,16 +5,18 @@ player = int(input("What do you choose? 0 for Rock, 1 for paper and 2 for scisso
 print(f"You Choose: {player}")
 computer = random.randint(0, 2)
 print(f"Computer choose: {computer}")
-if player == 0 and computer == 2:
+if player >= 3 or player < 0:
+    print("You choose an invalid number, you lose.")
+elif player == 0 and computer == 2:
     print("You win!")
 elif computer > player:
     print("You lose")
-elif player == computer:
-    print("It's a draw!")
+elif computer < player:
+    print("You win")
 elif player == 2 and computer == 0:
     print("You lose.")
-else:
-    print("You choose an invalid number, you lose.")
+elif player == computer:
+    print("It's a draw!")
 
 
 
