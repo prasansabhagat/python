@@ -1,2 +1,5 @@
 ctrl + k + c ->  comment all
 ctrl + k + u ->  decomment all
+
+
+list,tuples- values can be changed in list, not in tuples
