@@ -1,4 +1,4 @@
-#ctrl + ] -- for indentation
+ #ctrl + ] -- for indentation
 bid_dictionary = {}
 bidding_finished = False
 while not bidding_finished:
