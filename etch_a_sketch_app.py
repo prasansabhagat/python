@@ -12,17 +12,24 @@ def move_backward():
 
 
 def move_clkwise():
-    tim.right(10)
+    newiheading = tim.heading() + 10
+    tim.setheading(newiheading)
 
 
 def move_anticlkwise():
-    tim.left(10)
+    newheading = tim.heading() - 10
+    tim.setheading(newheading)
 
+
+def clear():
+    tim.clear()
+    tim.home()
 
 
 screen.listen()
-screen.onkey("q", move_forward)
-screen.onkey("w", move_backward)
-screen.onkey("e", move_clkwise)
-screen.onkey("r", move_anticlkwise)
+screen.onkey(move_forward, "f")
+screen.onkey( move_backward, "b")
+screen.onkey(move_clkwise, "c",)
+screen.onkey(move_anticlkwise, "a",)
+screen.onkey(clear, "h",)
 screen.exitonclick()
