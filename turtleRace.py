@@ -29,7 +29,5 @@ while race_on:
                 print(f"You have lost! The {winner} is the winner.")
         random_distance = random.randint(0,5)
         i.forward(random_distance)
-       
-
-
+        
 screen.exitonclick()
